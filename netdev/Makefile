@@ -6,4 +6,4 @@ all:
 	gcc server.c -o host_server
 	gcc client.c -o host_client
 clean:
-	rm -rf target_server target_client hoat_client hoat_server
+	rm -rf target_server target_client host_client host_server
